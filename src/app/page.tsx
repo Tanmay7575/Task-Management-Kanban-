@@ -1,9 +1,29 @@
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 
 export default function Home(){
-  return <>
-  <h1>Hello World</h1>
-  <Button variant="destructive">CLick O</Button>
-  <p className="bg-black text-white inline">Telenee</p>
-  </>
+  return <div  className="flex gap-4">
+  <Button>
+    Primary
+  </Button>
+  <Button variant="secondary">
+    Secondary
+  </Button >
+  <Button variant="destructive">
+    Destructive
+  </Button>
+  <Button variant="ghost">
+  Ghost
+  </Button>
+  <Button variant="link">
+     Link
+  </Button>
+  <Button variant="teritrary">
+     Link
+  </Button>
+  <Button variant="muted">
+     Link
+  </Button>
+  <Input/>
+  </div>
 }
